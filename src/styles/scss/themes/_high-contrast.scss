@@ -1,0 +1,35 @@
+.high-contrast {
+  background-color: $background-high-contrast-color;
+  color: $text-high-contrast-color;
+ * &:focus {
+   outline: $white solid thin;
+ }
+  h1, h2, h3, h4, h5, h6, p, ul, li {
+    color: $text-high-contrast-color;
+  }
+
+  ul, li {
+    background-color: $background-high-contrast-color;
+  }
+
+  a, a:visited, a:hover, a:active {
+    color: $primary-high-contrast-color;
+  }
+  a:focus, a:hover{
+    outline: $white solid thin;
+  }
+
+  button,
+  input[type="button"],
+  input[type="submit"] {
+    background-color: $primary-high-contrast-color;
+    color: $black;
+    &:focus {
+      outline: $white solid thin;
+    }
+  }
+
+  .header {
+    background-color: $background-high-contrast-color;
+  }
+}

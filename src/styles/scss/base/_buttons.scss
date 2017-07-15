@@ -1,0 +1,8 @@
+.button {
+  @include border-radius(5px);
+  border: 1px solid $primary-color;
+  line-height: 1.5;
+  background-color: $primary-color;
+  color: $white;
+  font-size: $font-size-base;
+}
